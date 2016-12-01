@@ -1,0 +1,6 @@
+framework module Pods_AvaTests {
+  umbrella header "Pods-AvaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

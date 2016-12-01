@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061CA8D8AB5633CB323358E19893E568 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 6E9410F7757FFB8E3F36480CFCBA91C8 /* Info.plist */; };
+		08E5EA4F4A7222F1C45785FD4F324BBE /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288A386ADFA7FFCC21DE90C3F569614 /* Socket.swift */; };
+		0F317CB06A5CB26E96BE9F043DA3B738 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8558C2C93EC67336517F52A86C32BC /* Result.swift */; };
+		1B4A7C053D538BFC2085B96451B15393 /* Pods-Ava-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E45D18B236CF4A14458F538568BF2FC /* Pods-Ava-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F722DA1AE3E6E17B4408A9D3C3F87CB /* Pods-AvaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4DEED0343001544B733E43DD4D7D6A /* Pods-AvaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BFD5B34E52A459E3EE29E38A16479BA /* Pods-Ava-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1FDC4C4980379C4D0D236FD1A99D8 /* Pods-Ava-dummy.m */; };
+		5905225BF1527B5394C87346F0F9C6C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		603B69D67FBF5CAA991DC84B3A36F784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6B495A8A6127CB85F1C94930AFD4CF57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7A586F79D7245EB2C0B78EAFCF122454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8BBE2C4253824D4333D0638312257C2B /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D752082113C0BFD4E10773B9E78F843 /* yudpsocket.c */; };
+		8D027C6941E71202E6C4BA3DCBD067F0 /* Pods-AvaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCD6DBADEF09BACD5966380BEEBE7F4 /* Pods-AvaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6933C8B787E21684F0ACC466B11E8E1 /* Pods-AvaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE17A51AD9B4F060C48391629C6BA677 /* Pods-AvaUITests-dummy.m */; };
+		B6B279DF18C1A92CF8121F292AFAC894 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = FC292F2E377FED791DD3CAADE6CF15AC /* ytcpsocket.c */; };
+		B8FB29A38851ACF8AEFF119463EB257D /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B75B87EB79439A4B3DF29E1A293455 /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB76119152C9BF692ABD38F2E2D750E /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECE370F86C7B1DF357FA951576EEBBB /* SwiftSocket-dummy.m */; };
+		C4A05CDB4F417B43EBA5BD2DCCF97905 /* SwiftSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BD8D59FDAD8BB026395DD89E3DAAB2 /* SwiftSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDDBE603F8E03F1F0D9E9FAB8DC4957 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCFC74C961D741D73B7D90B1F234D7 /* TCPClient.swift */; };
+		CE55981C7588AAB74DA52070B49BBDE6 /* Pods-AvaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F90A1F37A875EB629FC3B5569BBB38 /* Pods-AvaTests-dummy.m */; };
+		ED108ACBE3FE9F468F4ABD4167A83A0D /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAC0597EFF5B904AFC8F2B7E70A9B71 /* UDPClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592FD114C4DD4415ECC718C131BFB86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07A83B360BC23BCA70FD5FBC58099B5;
+			remoteInfo = SwiftSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DD3A0A71B49FAACD87F9DDBEB6D80E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A7F0C935FC2250EEA73C9311ECEB0E /* Pods-AvaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaUITests-resources.sh"; sourceTree = "<group>"; };
+		0B83D91E77BD794A2B1FB84686F21DA0 /* Pods-AvaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D370B3967E3232C7216AD2701C32EBB /* Pods-Ava-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ava-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DCD6DBADEF09BACD5966380BEEBE7F4 /* Pods-AvaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaUITests-umbrella.h"; sourceTree = "<group>"; };
+		0E042556519F790A6874473F0AA9A530 /* Pods-AvaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		127CC909FAADC0056636A03AE7D8BC73 /* Pods-Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ava.release.xcconfig"; sourceTree = "<group>"; };
+		13469617C22F14BE8983AACE147B0F75 /* Pods-AvaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		183950624D325B33FAC0A47097C2509E /* Pods_AvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaUITests.framework; path = "Pods-AvaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAC0597EFF5B904AFC8F2B7E70A9B71 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
+		1E45D18B236CF4A14458F538568BF2FC /* Pods-Ava-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ava-umbrella.h"; sourceTree = "<group>"; };
+		26864659FB011F13FCA82CDDD8EBCC51 /* Pods_Ava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ava.framework; path = "Pods-Ava.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F90A1F37A875EB629FC3B5569BBB38 /* Pods-AvaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaTests-dummy.m"; sourceTree = "<group>"; };
+		2F8558C2C93EC67336517F52A86C32BC /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		43B75B87EB79439A4B3DF29E1A293455 /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		4D0CB38F5508CE0DDA1E809D8C30E218 /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
+		58063EEE184092CB85E643394AE765E5 /* Pods-Ava-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ava-resources.sh"; sourceTree = "<group>"; };
+		5B328F220B5B0B4266E762855E5E58DA /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
+		5C3159EF9FA64C5FF271CC645A0BC770 /* Pods-Ava.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Ava.modulemap"; sourceTree = "<group>"; };
+		65891BAC936D3CACB3588BD621862C1C /* Pods-Ava-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ava-frameworks.sh"; sourceTree = "<group>"; };
+		6E9410F7757FFB8E3F36480CFCBA91C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		7288A386ADFA7FFCC21DE90C3F569614 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
+		7647000EC6A6001A2BC868167B399D1E /* Pods-Ava-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ava-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D752082113C0BFD4E10773B9E78F843 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
+		7ECE370F86C7B1DF357FA951576EEBBB /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
+		89A3751EE847A5A0A201591F29E6CC39 /* Pods-Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ava.debug.xcconfig"; sourceTree = "<group>"; };
+		8CC0C4834554449AB60F6934951468D1 /* Pods_AvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaTests.framework; path = "Pods-AvaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D82EB473AEDA9C8FD937A2C611D192C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B788450090483BEEA4EFB2106DF4E84 /* Pods-AvaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AvaTests.modulemap"; sourceTree = "<group>"; };
+		9D54B87FB57358CF3924CF931C34C81C /* Pods-AvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8199F3973982641FA982DA024AA33EC /* Pods-AvaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B18759A9222648B83A08CEBAC2EA80D1 /* Pods-AvaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AvaUITests.modulemap"; sourceTree = "<group>"; };
+		BA87D9EE190CD829452CB4AABE9E8221 /* Pods-AvaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaTests-resources.sh"; sourceTree = "<group>"; };
+		BB91A0E7E4D51A6B554E665E8ACC11B7 /* Pods-AvaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE1B1ECB10E98EC27EF6F4FB91123806 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F1FDC4C4980379C4D0D236FD1A99D8 /* Pods-Ava-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ava-dummy.m"; sourceTree = "<group>"; };
+		C925EAC195EA73241357CE530B8A993B /* Pods-AvaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA15CD033532B985395263B8C4EC0791 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D31B65858AF636E2D0638AB70CE3E570 /* Pods-AvaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaTests-frameworks.sh"; sourceTree = "<group>"; };
+		DE17A51AD9B4F060C48391629C6BA677 /* Pods-AvaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaUITests-dummy.m"; sourceTree = "<group>"; };
+		E19EA1A2A5E8AE4ACAF6802822D8DBD8 /* Pods-AvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7FC662F72783520E5391D4438AC4FAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB28FED424264EC4C30C23BEE11E1D76 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD8D59FDAD8BB026395DD89E3DAAB2 /* SwiftSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSocket.h; path = Sources/SwiftSocket.h; sourceTree = "<group>"; };
+		F8FCFC74C961D741D73B7D90B1F234D7 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
+		FC292F2E377FED791DD3CAADE6CF15AC /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
+		FE4DEED0343001544B733E43DD4D7D6A /* Pods-AvaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaTests-umbrella.h"; sourceTree = "<group>"; };
+		FFACEAE1398B4470EDE24BC8E1A0217A /* Pods-AvaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209487B42A9173B67B0B80CCF6923A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603B69D67FBF5CAA991DC84B3A36F784 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8037F89262D930FE5106C20850D01A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A586F79D7245EB2C0B78EAFCF122454 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F6F4755DF2BA496448AF6EA6D737AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B495A8A6127CB85F1C94930AFD4CF57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F571D5633BC97703E505EF93AA54DA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5905225BF1527B5394C87346F0F9C6C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1676C37B382AC5D9ED33797D44D73B6E /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				6E9410F7757FFB8E3F36480CFCBA91C8 /* Info.plist */,
+				2F8558C2C93EC67336517F52A86C32BC /* Result.swift */,
+				7288A386ADFA7FFCC21DE90C3F569614 /* Socket.swift */,
+				F3BD8D59FDAD8BB026395DD89E3DAAB2 /* SwiftSocket.h */,
+				F8FCFC74C961D741D73B7D90B1F234D7 /* TCPClient.swift */,
+				1BAC0597EFF5B904AFC8F2B7E70A9B71 /* UDPClient.swift */,
+				FC292F2E377FED791DD3CAADE6CF15AC /* ytcpsocket.c */,
+				7D752082113C0BFD4E10773B9E78F843 /* yudpsocket.c */,
+				FD062BAFDBCFA371148EEECB3B3AE184 /* Support Files */,
+			);
+			name = SwiftSocket;
+			path = SwiftSocket;
+			sourceTree = "<group>";
+		};
+		52017073552A9D7449192455EE059D87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1676C37B382AC5D9ED33797D44D73B6E /* SwiftSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		608A5165622893FABDBC0EC74B29383A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26864659FB011F13FCA82CDDD8EBCC51 /* Pods_Ava.framework */,
+				8CC0C4834554449AB60F6934951468D1 /* Pods_AvaTests.framework */,
+				183950624D325B33FAC0A47097C2509E /* Pods_AvaUITests.framework */,
+				EB28FED424264EC4C30C23BEE11E1D76 /* SwiftSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		619AF153DEC584E6CBC0370E7A90682B /* Pods-AvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7FC662F72783520E5391D4438AC4FAE /* Info.plist */,
+				9B788450090483BEEA4EFB2106DF4E84 /* Pods-AvaTests.modulemap */,
+				FFACEAE1398B4470EDE24BC8E1A0217A /* Pods-AvaTests-acknowledgements.markdown */,
+				0E042556519F790A6874473F0AA9A530 /* Pods-AvaTests-acknowledgements.plist */,
+				29F90A1F37A875EB629FC3B5569BBB38 /* Pods-AvaTests-dummy.m */,
+				D31B65858AF636E2D0638AB70CE3E570 /* Pods-AvaTests-frameworks.sh */,
+				BA87D9EE190CD829452CB4AABE9E8221 /* Pods-AvaTests-resources.sh */,
+				FE4DEED0343001544B733E43DD4D7D6A /* Pods-AvaTests-umbrella.h */,
+				C925EAC195EA73241357CE530B8A993B /* Pods-AvaTests.debug.xcconfig */,
+				E19EA1A2A5E8AE4ACAF6802822D8DBD8 /* Pods-AvaTests.release.xcconfig */,
+			);
+			name = "Pods-AvaTests";
+			path = "Target Support Files/Pods-AvaTests";
+			sourceTree = "<group>";
+		};
+		638F03034BFE4CEF163BA57455FD187D /* Pods-AvaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D82EB473AEDA9C8FD937A2C611D192C /* Info.plist */,
+				B18759A9222648B83A08CEBAC2EA80D1 /* Pods-AvaUITests.modulemap */,
+				BB91A0E7E4D51A6B554E665E8ACC11B7 /* Pods-AvaUITests-acknowledgements.markdown */,
+				0B83D91E77BD794A2B1FB84686F21DA0 /* Pods-AvaUITests-acknowledgements.plist */,
+				DE17A51AD9B4F060C48391629C6BA677 /* Pods-AvaUITests-dummy.m */,
+				13469617C22F14BE8983AACE147B0F75 /* Pods-AvaUITests-frameworks.sh */,
+				09A7F0C935FC2250EEA73C9311ECEB0E /* Pods-AvaUITests-resources.sh */,
+				0DCD6DBADEF09BACD5966380BEEBE7F4 /* Pods-AvaUITests-umbrella.h */,
+				9D54B87FB57358CF3924CF931C34C81C /* Pods-AvaUITests.debug.xcconfig */,
+				A8199F3973982641FA982DA024AA33EC /* Pods-AvaUITests.release.xcconfig */,
+			);
+			name = "Pods-AvaUITests";
+			path = "Target Support Files/Pods-AvaUITests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		799217E92999D301535396D801EBED81 /* Pods-Ava */ = {
+			isa = PBXGroup;
+			children = (
+				BE1B1ECB10E98EC27EF6F4FB91123806 /* Info.plist */,
+				5C3159EF9FA64C5FF271CC645A0BC770 /* Pods-Ava.modulemap */,
+				0D370B3967E3232C7216AD2701C32EBB /* Pods-Ava-acknowledgements.markdown */,
+				7647000EC6A6001A2BC868167B399D1E /* Pods-Ava-acknowledgements.plist */,
+				C3F1FDC4C4980379C4D0D236FD1A99D8 /* Pods-Ava-dummy.m */,
+				65891BAC936D3CACB3588BD621862C1C /* Pods-Ava-frameworks.sh */,
+				58063EEE184092CB85E643394AE765E5 /* Pods-Ava-resources.sh */,
+				1E45D18B236CF4A14458F538568BF2FC /* Pods-Ava-umbrella.h */,
+				89A3751EE847A5A0A201591F29E6CC39 /* Pods-Ava.debug.xcconfig */,
+				127CC909FAADC0056636A03AE7D8BC73 /* Pods-Ava.release.xcconfig */,
+			);
+			name = "Pods-Ava";
+			path = "Target Support Files/Pods-Ava";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				52017073552A9D7449192455EE059D87 /* Pods */,
+				608A5165622893FABDBC0EC74B29383A /* Products */,
+				8E545CBC2751F0A0E19A82C871F5B97A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E545CBC2751F0A0E19A82C871F5B97A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				799217E92999D301535396D801EBED81 /* Pods-Ava */,
+				619AF153DEC584E6CBC0370E7A90682B /* Pods-AvaTests */,
+				638F03034BFE4CEF163BA57455FD187D /* Pods-AvaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD062BAFDBCFA371148EEECB3B3AE184 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01DD3A0A71B49FAACD87F9DDBEB6D80E /* Info.plist */,
+				4D0CB38F5508CE0DDA1E809D8C30E218 /* SwiftSocket.modulemap */,
+				5B328F220B5B0B4266E762855E5E58DA /* SwiftSocket.xcconfig */,
+				7ECE370F86C7B1DF357FA951576EEBBB /* SwiftSocket-dummy.m */,
+				CA15CD033532B985395263B8C4EC0791 /* SwiftSocket-prefix.pch */,
+				43B75B87EB79439A4B3DF29E1A293455 /* SwiftSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSocket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BD84CDF0E36427058E22839F5D391F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D027C6941E71202E6C4BA3DCBD067F0 /* Pods-AvaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB24CC3541190CBEC852FB2B0D101DA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4A7C053D538BFC2085B96451B15393 /* Pods-Ava-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB2966249E07F61B188D4E90232E6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FB29A38851ACF8AEFF119463EB257D /* SwiftSocket-umbrella.h in Headers */,
+				C4A05CDB4F417B43EBA5BD2DCCF97905 /* SwiftSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A871A7FFDB770977C76CFD944778C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F722DA1AE3E6E17B4408A9D3C3F87CB /* Pods-AvaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3254222EFFB505B3F8DD7997D07A901F /* Pods-AvaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3031DF19A8F0A58A474550BC8EF0E116 /* Build configuration list for PBXNativeTarget "Pods-AvaUITests" */;
+			buildPhases = (
+				89D48B0EEBD2284BE1702CFF65CDE601 /* Sources */,
+				E3F6F4755DF2BA496448AF6EA6D737AB /* Frameworks */,
+				9BD84CDF0E36427058E22839F5D391F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AvaUITests";
+			productName = "Pods-AvaUITests";
+			productReference = 183950624D325B33FAC0A47097C2509E /* Pods_AvaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75A7ADF1B4CB08D1BD886AFE76A47DAF /* Pods-Ava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57B5849864926ACD03F1E1EDD7E8BF7 /* Build configuration list for PBXNativeTarget "Pods-Ava" */;
+			buildPhases = (
+				8DD6692C1A2B39FFA0D5610E140C22D2 /* Sources */,
+				F571D5633BC97703E505EF93AA54DA54 /* Frameworks */,
+				CB24CC3541190CBEC852FB2B0D101DA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA0B0C45B92C70D7EB1D0CD89924E80 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ava";
+			productName = "Pods-Ava";
+			productReference = 26864659FB011F13FCA82CDDD8EBCC51 /* Pods_Ava.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4F830B229478101AB98BDB180FC5820 /* Pods-AvaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24ED74017BB2CE9E62790FD9B24379CE /* Build configuration list for PBXNativeTarget "Pods-AvaTests" */;
+			buildPhases = (
+				0DE0E9A48F86E09FEAC8E3962D40C63A /* Sources */,
+				209487B42A9173B67B0B80CCF6923A4C /* Frameworks */,
+				F5A871A7FFDB770977C76CFD944778C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AvaTests";
+			productName = "Pods-AvaTests";
+			productReference = 8CC0C4834554449AB60F6934951468D1 /* Pods_AvaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E07A83B360BC23BCA70FD5FBC58099B5 /* SwiftSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9085631ACB5D1C8FA943F094C0F42F09 /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
+			buildPhases = (
+				8A39FA20CB6F56022E9DAF5B6E7D1D7F /* Sources */,
+				D8037F89262D930FE5106C20850D01A3 /* Frameworks */,
+				DBBB2966249E07F61B188D4E90232E6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSocket;
+			productName = SwiftSocket;
+			productReference = EB28FED424264EC4C30C23BEE11E1D76 /* SwiftSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 608A5165622893FABDBC0EC74B29383A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A7ADF1B4CB08D1BD886AFE76A47DAF /* Pods-Ava */,
+				A4F830B229478101AB98BDB180FC5820 /* Pods-AvaTests */,
+				3254222EFFB505B3F8DD7997D07A901F /* Pods-AvaUITests */,
+				E07A83B360BC23BCA70FD5FBC58099B5 /* SwiftSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE0E9A48F86E09FEAC8E3962D40C63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE55981C7588AAB74DA52070B49BBDE6 /* Pods-AvaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D48B0EEBD2284BE1702CFF65CDE601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6933C8B787E21684F0ACC466B11E8E1 /* Pods-AvaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A39FA20CB6F56022E9DAF5B6E7D1D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061CA8D8AB5633CB323358E19893E568 /* Info.plist in Sources */,
+				0F317CB06A5CB26E96BE9F043DA3B738 /* Result.swift in Sources */,
+				08E5EA4F4A7222F1C45785FD4F324BBE /* Socket.swift in Sources */,
+				BAB76119152C9BF692ABD38F2E2D750E /* SwiftSocket-dummy.m in Sources */,
+				CBDDBE603F8E03F1F0D9E9FAB8DC4957 /* TCPClient.swift in Sources */,
+				ED108ACBE3FE9F468F4ABD4167A83A0D /* UDPClient.swift in Sources */,
+				B6B279DF18C1A92CF8121F292AFAC894 /* ytcpsocket.c in Sources */,
+				8BBE2C4253824D4333D0638312257C2B /* yudpsocket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD6692C1A2B39FFA0D5610E140C22D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFD5B34E52A459E3EE29E38A16479BA /* Pods-Ava-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA0B0C45B92C70D7EB1D0CD89924E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSocket;
+			target = E07A83B360BC23BCA70FD5FBC58099B5 /* SwiftSocket */;
+			targetProxy = 592FD114C4DD4415ECC718C131BFB86B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		105A4CC36C142039B45472516D5F5240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C925EAC195EA73241357CE530B8A993B /* Pods-AvaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaTests/Pods-AvaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30FB02BB0F52F5D2C5D1DE874CBE6F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19EA1A2A5E8AE4ACAF6802822D8DBD8 /* Pods-AvaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaTests/Pods-AvaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FFE16EDD681C0870C6DAACF09ED584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B328F220B5B0B4266E762855E5E58DA /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		802294C5BF5023C407E6AB8CB0733875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A3751EE847A5A0A201591F29E6CC39 /* Pods-Ava.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ava/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ava/Pods-Ava.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ava;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8129C1C9A8A755EB89FE0A3129F57ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127CC909FAADC0056636A03AE7D8BC73 /* Pods-Ava.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ava/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ava/Pods-Ava.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ava;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CECED80178490E38B8C1EBBF6D1EA5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D54B87FB57358CF3924CF931C34C81C /* Pods-AvaUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaUITests/Pods-AvaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC205215C5FB8F00B595A092BA204B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B328F220B5B0B4266E762855E5E58DA /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB42F3E3D6B63E5FCDA4976F6E786A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8199F3973982641FA982DA024AA33EC /* Pods-AvaUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaUITests/Pods-AvaUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24ED74017BB2CE9E62790FD9B24379CE /* Build configuration list for PBXNativeTarget "Pods-AvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105A4CC36C142039B45472516D5F5240 /* Debug */,
+				30FB02BB0F52F5D2C5D1DE874CBE6F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3031DF19A8F0A58A474550BC8EF0E116 /* Build configuration list for PBXNativeTarget "Pods-AvaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECED80178490E38B8C1EBBF6D1EA5D4 /* Debug */,
+				FB42F3E3D6B63E5FCDA4976F6E786A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9085631ACB5D1C8FA943F094C0F42F09 /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFE16EDD681C0870C6DAACF09ED584D /* Debug */,
+				EC205215C5FB8F00B595A092BA204B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57B5849864926ACD03F1E1EDD7E8BF7 /* Build configuration list for PBXNativeTarget "Pods-Ava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802294C5BF5023C407E6AB8CB0733875 /* Debug */,
+				8129C1C9A8A755EB89FE0A3129F57ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

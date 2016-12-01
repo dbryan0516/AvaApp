@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF6F642395AB4E2A97B7E17 /* Pods_Ava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8EDD3F34DFFCA624D26F10 /* Pods_Ava.framework */; };
+		AA86A904016F74F9680C6387 /* Pods_AvaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD324224052338326F73FD17 /* Pods_AvaTests.framework */; };
+		D464D2627D2EA02A19365D6F /* Pods_AvaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C864A17B2A4B11B94208CB /* Pods_AvaUITests.framework */; };
 		DBE30C2F1DEFAA2F00B66742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE30C2E1DEFAA2F00B66742 /* AppDelegate.swift */; };
 		DBE30C311DEFAA2F00B66742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE30C301DEFAA2F00B66742 /* ViewController.swift */; };
 		DBE30C341DEFAA2F00B66742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE30C321DEFAA2F00B66742 /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A53C3D558EE3BC8823ADA8 /* Pods-AvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvaTests/Pods-AvaTests.release.xcconfig"; sourceTree = "<group>"; };
+		08C09FBE9DBC3302DD524B5E /* Pods-AvaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvaUITests/Pods-AvaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C8EDD3F34DFFCA624D26F10 /* Pods_Ava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5613E1CF00F4654A7A3CCB42 /* Pods-Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ava.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ava/Pods-Ava.release.xcconfig"; sourceTree = "<group>"; };
+		6A1C476F5B246CD1DE3801EE /* Pods-AvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvaUITests/Pods-AvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76C864A17B2A4B11B94208CB /* Pods_AvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CC4C239B6064164C019005 /* Pods-Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ava.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ava/Pods-Ava.debug.xcconfig"; sourceTree = "<group>"; };
 		DBE30C2B1DEFAA2F00B66742 /* Ava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ava.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE30C2E1DEFAA2F00B66742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE30C301DEFAA2F00B66742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		DBE30C4A1DEFAA2F00B66742 /* AvaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE30C4E1DEFAA2F00B66742 /* AvaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaUITests.swift; sourceTree = "<group>"; };
 		DBE30C501DEFAA2F00B66742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79485342D57C6FD9DAFF92 /* Pods-AvaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvaTests/Pods-AvaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD324224052338326F73FD17 /* Pods_AvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF6F642395AB4E2A97B7E17 /* Pods_Ava.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA86A904016F74F9680C6387 /* Pods_AvaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D464D2627D2EA02A19365D6F /* Pods_AvaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4574CBFEFD9F72ED9D3240E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CC4C239B6064164C019005 /* Pods-Ava.debug.xcconfig */,
+				5613E1CF00F4654A7A3CCB42 /* Pods-Ava.release.xcconfig */,
+				EB79485342D57C6FD9DAFF92 /* Pods-AvaTests.debug.xcconfig */,
+				03A53C3D558EE3BC8823ADA8 /* Pods-AvaTests.release.xcconfig */,
+				6A1C476F5B246CD1DE3801EE /* Pods-AvaUITests.debug.xcconfig */,
+				08C09FBE9DBC3302DD524B5E /* Pods-AvaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54D9432378475C4DA9CBD5DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8EDD3F34DFFCA624D26F10 /* Pods_Ava.framework */,
+				FD324224052338326F73FD17 /* Pods_AvaTests.framework */,
+				76C864A17B2A4B11B94208CB /* Pods_AvaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DBE30C221DEFAA2F00B66742 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				DBE30C421DEFAA2F00B66742 /* AvaTests */,
 				DBE30C4D1DEFAA2F00B66742 /* AvaUITests */,
 				DBE30C2C1DEFAA2F00B66742 /* Products */,
+				4574CBFEFD9F72ED9D3240E8 /* Pods */,
+				54D9432378475C4DA9CBD5DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE30C531DEFAA2F00B66742 /* Build configuration list for PBXNativeTarget "Ava" */;
 			buildPhases = (
+				8D3927A5AAC3D7BEA74BACDA /* [CP] Check Pods Manifest.lock */,
 				DBE30C271DEFAA2F00B66742 /* Sources */,
 				DBE30C281DEFAA2F00B66742 /* Frameworks */,
 				DBE30C291DEFAA2F00B66742 /* Resources */,
+				C3CBBADB76CEF2DA440F9D9F /* [CP] Embed Pods Frameworks */,
+				72AE84F711F2F1187DD1DB1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE30C561DEFAA2F00B66742 /* Build configuration list for PBXNativeTarget "AvaTests" */;
 			buildPhases = (
+				53A8176FF84654FBFE4959BD /* [CP] Check Pods Manifest.lock */,
 				DBE30C3B1DEFAA2F00B66742 /* Sources */,
 				DBE30C3C1DEFAA2F00B66742 /* Frameworks */,
 				DBE30C3D1DEFAA2F00B66742 /* Resources */,
+				7328ABF7B1B929415F1A0F2F /* [CP] Embed Pods Frameworks */,
+				C78938A7DA0F2481F566ADE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE30C591DEFAA2F00B66742 /* Build configuration list for PBXNativeTarget "AvaUITests" */;
 			buildPhases = (
+				961E8690432D3199CDC07940 /* [CP] Check Pods Manifest.lock */,
 				DBE30C461DEFAA2F00B66742 /* Sources */,
 				DBE30C471DEFAA2F00B66742 /* Frameworks */,
 				DBE30C481DEFAA2F00B66742 /* Resources */,
+				622D09DEF198B82D511FDF20 /* [CP] Embed Pods Frameworks */,
+				78A6F77A4ADAF3E8162521E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +306,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53A8176FF84654FBFE4959BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		622D09DEF198B82D511FDF20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaUITests/Pods-AvaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AE84F711F2F1187DD1DB1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ava/Pods-Ava-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7328ABF7B1B929415F1A0F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaTests/Pods-AvaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A6F77A4ADAF3E8162521E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaUITests/Pods-AvaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3927A5AAC3D7BEA74BACDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		961E8690432D3199CDC07940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CBBADB76CEF2DA440F9D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ava/Pods-Ava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C78938A7DA0F2481F566ADE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaTests/Pods-AvaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBE30C271DEFAA2F00B66742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -336,6 +523,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +574,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,10 +602,13 @@
 		};
 		DBE30C541DEFAA2F00B66742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CC4C239B6064164C019005 /* Pods-Ava.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3H95UQN5ZZ;
 				INFOPLIST_FILE = Ava/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dbryan.Ava;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +618,13 @@
 		};
 		DBE30C551DEFAA2F00B66742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5613E1CF00F4654A7A3CCB42 /* Pods-Ava.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3H95UQN5ZZ;
 				INFOPLIST_FILE = Ava/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dbryan.Ava;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +634,7 @@
 		};
 		DBE30C571DEFAA2F00B66742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB79485342D57C6FD9DAFF92 /* Pods-AvaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +650,7 @@
 		};
 		DBE30C581DEFAA2F00B66742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A53C3D558EE3BC8823ADA8 /* Pods-AvaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +666,7 @@
 		};
 		DBE30C5A1DEFAA2F00B66742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1C476F5B246CD1DE3801EE /* Pods-AvaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3H95UQN5ZZ;
@@ -483,6 +681,7 @@
 		};
 		DBE30C5B1DEFAA2F00B66742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C09FBE9DBC3302DD524B5E /* Pods-AvaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3H95UQN5ZZ;
@@ -514,6 +713,7 @@
 				DBE30C551DEFAA2F00B66742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBE30C561DEFAA2F00B66742 /* Build configuration list for PBXNativeTarget "AvaTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +722,7 @@
 				DBE30C581DEFAA2F00B66742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBE30C591DEFAA2F00B66742 /* Build configuration list for PBXNativeTarget "AvaUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +731,7 @@
 				DBE30C5B1DEFAA2F00B66742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
