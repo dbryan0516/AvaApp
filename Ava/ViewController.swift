@@ -24,7 +24,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
     @IBAction func switchLights(_ sender: UIButton) {
+        
         let outlet = TCPClient(address: outletIP, port: 9999)
         switch outlet.connect(timeout: 1) {
             

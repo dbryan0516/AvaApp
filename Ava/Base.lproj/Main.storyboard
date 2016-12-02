@@ -29,8 +29,7 @@
                                 </constraints>
                                 <state key="normal" title="Switch"/>
                                 <connections>
-                                    <action selector="switchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T1P-yx-aMR"/>
-                                    <action selector="switchLights:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XOF-sI-DAK"/>
+                                    <action selector="switchLights:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bTA-0C-2bf"/>
                                 </connections>
                             </button>
                         </subviews>
